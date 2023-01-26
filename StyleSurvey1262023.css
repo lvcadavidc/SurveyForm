@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    padding: 1%;
+    color: #f5f6f7;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    background-color:#4256CE
+  }
+  
+  h1, p{
+    margin: 1em auto;
+    text-align: center;
+    width:70vw;
+  }
+  
+  #description{
+    font-style: italic;
+    font-size: 0.9em;
+    padding-bottom: 1.5em;
+    width:60vw;
+  }
+  
+  #title{
+    text-transform:Uppercase;
+  }
+  
+  form{
+    max-width:500px;
+    margin: 0 auto;
+    padding: 1em 2em 2em 2em;
+    font-size: 16px;
+    background-color: #1b1b3250;
+    border-radius: 5px;
+  }
+  
+  input{
+    padding:5px 5px 5px 0;
+    border-radius: 5px;
+    border-style:none;
+  }
+  
+  .input-elements{
+    flex-direction: column;
+    display:flex;
+    margin:10px;
+  }
