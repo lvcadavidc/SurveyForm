@@ -1,14 +1,18 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
  <meta charset="UTF-8">
  <title>Survey Form</title>
- <link rel="stylesheet" href="static/css/StyleSurvey1262023.css" />
+ <link rel="stylesheet" href="{% static 'css/StyleSurvey1262023.css' %}" />
 </head>
 <body>
  <h1 id='title'>Laura and Daniel's Survey Form</h1>
  <p id='description'>This is a short survey form to practice our skills. This is the 1st project for fullstack development.</p>
  <form id='survey-form' method="post" action=#>
+
+{% csrf_token %}
 
 <! -- NAME -->
 <div class="input-elements">

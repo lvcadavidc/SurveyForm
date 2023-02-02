@@ -1,46 +1,82 @@
 body {
-    width: 100%;
-    padding: 1%;
-    color: #f5f6f7;
-    font-family: Poppins, sans-serif;
-    font-size: 17px;
-    background-color:#4256CE
-  }
+  width: 95%;
+  padding: 1%;
+  color: #f5f6f7;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  background-color:#4256CE;
+  background-image: url(https://images.unsplash.com/photo-1616596871445-bb8290a7a2c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2007&q=80);
+}
+
+h1, p{
+  margin: 1em auto;
+  text-align: center;
+  width:70vw;
+  color:black;
+}
+
+#description{
+  font-style: italic;
+  font-size: 0.9em;
+  padding-bottom: 1.5em;
+  width:60vw;
+  color:black;
+}
+
+#title{
+  text-transform:Uppercase;
+}
+
+form{
+  max-width:600px;
+  margin: 0 auto;
+  padding: 1em 2em 2em 2em;
+  font-size: 16px;
+  background-color: #1b1b3295;
+  border-radius: 5px;
+}
+
+input, textarea, select{
+  padding:5px 5px 5px 0;
+  border-radius: 5px;
+  border-style:none;
+  font-family: Poppins, sans-serif;
   
-  h1, p{
-    margin: 1em auto;
-    text-align: center;
-    width:70vw;
-  }
-  
-  #description{
-    font-style: italic;
-    font-size: 0.9em;
-    padding-bottom: 1.5em;
-    width:60vw;
-  }
-  
-  #title{
-    text-transform:Uppercase;
-  }
-  
-  form{
-    max-width:500px;
-    margin: 0 auto;
-    padding: 1em 2em 2em 2em;
-    font-size: 16px;
-    background-color: #1b1b3250;
-    border-radius: 5px;
-  }
-  
-  input{
-    padding:5px 5px 5px 0;
-    border-radius: 5px;
-    border-style:none;
-  }
-  
-  .input-elements{
-    flex-direction: column;
-    display:flex;
-    margin:10px;
-  }
+} 
+
+textarea,select {
+  margin: 3px 0 10px 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.input-elements{
+  margin:10px 10px 20px 0;
+  width: 100%;
+}
+
+.options{
+  margin:5px 0px 0px 20px;
+}
+
+.prueba {
+  margin: 3px 0 10px 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+label{
+  margin: 1em auto;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #70915E;
+  border-color: white;
+  color:white;
+  min-width: 300px;
+}
